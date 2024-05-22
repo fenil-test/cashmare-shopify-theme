@@ -1,14 +1,37 @@
 {
   "current": {
-    "logo_width": 90,
+    "logo": "shopify:\/\/shop_images\/Group_18.png",
+    "logo_width": 100,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
-    "page_width": 1300,
-    "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
-    "spacing_grid_vertical": 8,
+    "enable_custom_font": true,
+    "header_font_name": "\"Outfit\", sans-serif",
+    "header_font_url": "https:\/\/fonts.googleapis.com\/css2?family=Outfit:wght@100..900&display=swap",
+    "header_font_weight": 300,
+    "body_font_name": "\"Outfit\", sans-serif",
+    "body_font_url": "https:\/\/fonts.googleapis.com\/css2?family=Outfit:wght@100..900&display=swap",
+    "h1_desktop_size": 62,
+    "h2_desktop_size": 42,
+    "h3_desktop_size": 36,
+    "h4_desktop_size": 28,
+    "h5_desktop_size": 20,
+    "h6_desktop_size": 14,
+    "h1_mobile_size": 32,
+    "h2_mobile_size": 24,
+    "h3_mobile_size": 32,
+    "h4_mobile_size": 25,
+    "h5_mobile_size": 14,
+    "h6_mobile_size": 14,
+    "body_desktop_1_line_height": 31,
+    "body_desktop_3_line_height": 25,
+    "body_mobile_1_line_height": 28,
+    "body_mobile_3_line_height": 25,
+    "page_width": 1290,
+    "spacing_sections": 40,
+    "spacing_grid_horizontal": 30,
+    "spacing_grid_vertical": 30,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
@@ -187,6 +210,28 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-e7e7d7be-fdf6-45cd-8c1b-7bd167f686e9": {
+        "settings": {
+          "background": "#635050",
+          "background_gradient": "",
+          "text": "#000000",
+          "button": "#000000",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-64d79cc0-f016-48f0-a0b0-0d8797c203e3": {
+        "settings": {
+          "background": "#1773b0",
+          "background_gradient": "linear-gradient(57deg, rgba(144, 79, 147, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }

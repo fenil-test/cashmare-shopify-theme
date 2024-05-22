@@ -229,6 +229,7 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
+      
       <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
@@ -240,6 +241,7 @@
             {%- endform -%}
           </localization-form>
         {% endif %}
+
 
         {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
@@ -254,22 +256,26 @@
       </div>
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
+      <div class="my_popup">
+          {%  render 'popup-icon'  %}
+          <span class="my_popop__text">{{ 'customer.account_popup' | t }}</span>
+      </div>
+
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-          <account-icon>
             {%- if customer and customer.has_avatar? -%}
               {{ customer | avatar }}
             {%- else -%}
-              {% render 'icon-account' %}
+
+              {% render 'my-account' %}
             {%- endif -%}
-          </account-icon>
-          <span class="visually-hidden">
+          <span class="my_account__text">
             {%- liquid
               if customer
                 echo 'customer.account_fallback' | t
               else
                 echo 'customer.log_in' | t
-              endif
+              endif 
             -%}
           </span>
         </a>
@@ -285,7 +291,7 @@
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
-            render 'icon-cart-empty'
+            render 'my-cart'
           else
             render 'icon-cart'
           endif
@@ -300,6 +306,7 @@
           </div>
         {%- endif -%}
       </a>
+      
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -491,6 +498,18 @@
       "label": "t:sections.header.settings.logo_position.label",
       "info": "t:sections.header.settings.logo_help.content"
     },
+    {
+      "type": "text",
+      "id": "header_text",
+      "default": "What are you looking for?",
+      "label": "Search text"                               
+    },
+    {
+      "type": "image_picker",
+      "id": "search_icon",
+      "label": "Search icon"
+    },
+    
     {
       "type": "link_list",
       "id": "menu",

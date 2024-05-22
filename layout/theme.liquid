@@ -87,6 +87,8 @@
         --color-badge-background: {{ scheme.settings.background.red }},{{ scheme.settings.background.green }},{{ scheme.settings.background.blue }};
         --color-badge-border: {{ scheme.settings.text.red }},{{ scheme.settings.text.green }},{{ scheme.settings.text.blue }};
         --payment-terms-background-color: rgb({{ scheme.settings.background.rgb }});
+
+      
       }
       {% endfor %}
 
@@ -216,6 +218,18 @@
         --variant-pills-shadow-horizontal-offset: {{ settings.variant_pills_shadow_horizontal_offset }}px;
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
+
+
+      /* my custom variable  */
+      --font-heading-weight:{{ settings.header_font_weight }};
+         --font-body-weight:{{ settings.body_font_weight }};
+         --font-heading-h1-desktop:{{ settings.h1_desktop_size }};
+         --font-heading-h2-desktop:{{ settings. }};
+         --font-heading-h3-desktop:{{ settings. }};
+         --font-heading-h4-desktop:{{ settings. }};
+         --font-heading-h6-desktop:{{ settings. }};
+         --font-heading-h6-desktop:{{ settings. }};
+
       }
 
       *,
@@ -252,6 +266,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'brand-guide.css' |  asset_url |  stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       {% comment %}theme-check-disable AssetPreload{% endcomment %}
@@ -355,5 +370,10 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+   
+
+    {{ 'my-custom.css' |  asset_url |  stylesheet_tag}}
+
   </body>
 </html>
