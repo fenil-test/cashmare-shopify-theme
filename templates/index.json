@@ -60,7 +60,7 @@
       "settings": {
         "title": "FEATURED COLLECTIONS",
         "heading_size": "h2",
-        "description": "<h2>Best Sellers<\/h2>",
+        "description": "<h3>Best Sellers<\/h3>",
         "show_description": false,
         "description_style": "body",
         "collection": "best-sellers",
@@ -70,10 +70,200 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_kbHCyg": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_y3NbRF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-2022-lookbook"
+          }
+        },
+        "featured_collection_3AtVWb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spring-edit"
+          }
+        },
+        "featured_collection_rUrHTp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_y3NbRF",
+        "featured_collection_3AtVWb",
+        "featured_collection_rUrHTp"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_pbwhEj": {
+      "type": "image-banner",
+      "blocks": {
+        "text_MgPB3r": {
+          "type": "text",
+          "settings": {
+            "text": "IN FOR THE SEASON",
+            "text_style": "body"
+          }
+        },
+        "heading_HenBMy": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUMMER DRESSES",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_Aayhwi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/trending",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_MgPB3r",
+        "heading_HenBMy",
+        "buttons_Aayhwi"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group30.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_nczpYh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "heading_size": "h1",
+        "description": "<h3>Latest & Greatest<\/h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "latest-greatest",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_W6qXbw": {
+      "type": "featured-collection",
+      "blocks": {
+        "tabs_WnRRTd": {
+          "type": "tabs",
+          "settings": {
+            "text_tabs": "Sweaters"
+          }
+        },
+        "tabs_7xHEhp": {
+          "type": "tabs",
+          "settings": {
+            "text_tabs": "SWEATERS"
+          }
+        },
+        "tabs_FEhhN4": {
+          "type": "tabs",
+          "settings": {
+            "text_tabs": "WOMEN"
+          }
+        },
+        "tabs_wQJJdQ": {
+          "type": "tabs",
+          "settings": {
+            "text_tabs": "BOTTOMS"
+          }
+        },
+        "tabs_BaTXai": {
+          "type": "tabs",
+          "settings": {
+            "text_tabs": "ACCESSORIES"
+          }
+        },
+        "tabs_4r8xX8": {
+          "type": "tabs",
+          "settings": {
+            "text_tabs": "MEN"
+          }
+        }
+      },
+      "block_order": [
+        "tabs_WnRRTd",
+        "tabs_7xHEhp",
+        "tabs_FEhhN4",
+        "tabs_wQJJdQ",
+        "tabs_BaTXai",
+        "tabs_4r8xX8"
+      ],
+      "settings": {
+        "title": "LUXURIOUSLY AFFORDABLE",
+        "heading_size": "h1",
+        "description": "<h3>Under $99.99<\/h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "under-99-99",
+        "products_to_show": 7,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
@@ -86,6 +276,10 @@
   },
   "order": [
     "slideshow_9TNY94",
-    "featured_collection"
+    "featured_collection",
+    "collection_list_kbHCyg",
+    "image_banner_pbwhEj",
+    "featured_collection_nczpYh",
+    "featured_collection_W6qXbw"
   ]
 }
