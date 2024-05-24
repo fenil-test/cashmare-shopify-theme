@@ -199,53 +199,51 @@
         "padding_bottom": 0
       }
     },
-    "featured_collection_W6qXbw": {
-      "type": "featured-collection",
+    "my_featured_collection_dTdENq": {
+      "type": "my-featured-collection",
       "blocks": {
-        "tabs_WnRRTd": {
-          "type": "tabs",
+        "tab_wPtKPJ": {
+          "type": "tab",
           "settings": {
-            "text_tabs": "Sweaters"
+            "tabs": "WOMEN",
+            "collection_tab": "under-99-99"
           }
         },
-        "tabs_7xHEhp": {
-          "type": "tabs",
+        "tab_GhpDDe": {
+          "type": "tab",
           "settings": {
-            "text_tabs": "SWEATERS"
+            "tabs": "SWEATERS",
+            "collection_tab": "sweaters"
           }
         },
-        "tabs_FEhhN4": {
-          "type": "tabs",
+        "tab_tybW3A": {
+          "type": "tab",
           "settings": {
-            "text_tabs": "WOMEN"
+            "tabs": "BOTTOMS",
+            "collection_tab": "bottoms"
           }
         },
-        "tabs_wQJJdQ": {
-          "type": "tabs",
+        "tab_TG9UF9": {
+          "type": "tab",
           "settings": {
-            "text_tabs": "BOTTOMS"
+            "tabs": "ACCESSORIES",
+            "collection_tab": "accessories"
           }
         },
-        "tabs_BaTXai": {
-          "type": "tabs",
+        "tab_MqiK8Q": {
+          "type": "tab",
           "settings": {
-            "text_tabs": "ACCESSORIES"
-          }
-        },
-        "tabs_4r8xX8": {
-          "type": "tabs",
-          "settings": {
-            "text_tabs": "MEN"
+            "tabs": "MEN",
+            "collection_tab": "men"
           }
         }
       },
       "block_order": [
-        "tabs_WnRRTd",
-        "tabs_7xHEhp",
-        "tabs_FEhhN4",
-        "tabs_wQJJdQ",
-        "tabs_BaTXai",
-        "tabs_4r8xX8"
+        "tab_wPtKPJ",
+        "tab_GhpDDe",
+        "tab_tybW3A",
+        "tab_TG9UF9",
+        "tab_MqiK8Q"
       ],
       "settings": {
         "title": "LUXURIOUSLY AFFORDABLE",
@@ -254,7 +252,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "under-99-99",
-        "products_to_show": 7,
+        "products_to_show": 6,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -280,6 +278,6 @@
     "collection_list_kbHCyg",
     "image_banner_pbwhEj",
     "featured_collection_nczpYh",
-    "featured_collection_W6qXbw"
+    "my_featured_collection_dTdENq"
   ]
 }

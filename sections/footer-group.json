@@ -2,6 +2,97 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "multicolum_image_Ffh3xh": {
+      "type": "multicolum-image",
+      "blocks": {
+        "column_g4ytWU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_15.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_agfpeb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_10.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yWykXf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_11.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hVWUDf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_12.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6Ncq4D": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_13.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9GcTW8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_14.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_g4ytWU",
+        "column_agfpeb",
+        "column_yWykXf",
+        "column_hVWUDf",
+        "column_6Ncq4D",
+        "column_9GcTW8"
+      ],
+      "settings": {
+        "title": "FOLLOW US ON INSTAGRAM",
+        "my_title": "@THECASHMERESALE",
+        "column_gap": 10,
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 32
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -21,6 +112,7 @@
     }
   },
   "order": [
+    "multicolum_image_Ffh3xh",
     "footer"
   ]
 }

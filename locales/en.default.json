@@ -315,7 +315,13 @@
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
+      "no_product":"Sorry product no available",
       "view_all": "SHOP ALL",
+      "view_all_label": "View all products in the {{ collection_name }} collection"
+    },
+    "custom_featured__collection": {
+      "no_product":"product no available",
+      "view_all": "VIEW ALL PRODUCTS",
       "view_all_label": "View all products in the {{ collection_name }} collection"
     },
     "collection_list": {  
